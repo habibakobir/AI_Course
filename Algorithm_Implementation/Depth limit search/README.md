@@ -1,38 +1,47 @@
-# 🧩 Depth-First Search (DFS) Algorithm
+# 🧠 Depth-Limited Search (DLS) Algorithm
 
 ### 🔹 How the Algorithm Works
-Depth-First Search (DFS) is a graph traversal algorithm that explores as far as possible along one branch before backtracking.  
-It uses a **stack** data structure (either explicitly or via recursion) to remember which nodes to visit next.
+Depth-Limited Search (DLS) is a variation of the **Depth-First Search (DFS)** algorithm,  
+where the search process is restricted to a **specific depth limit**.  
+This means the algorithm explores nodes only up to a fixed level in the search tree.
+
+It helps prevent infinite loops in large or infinite search spaces.
 
 **Steps:**
-1. Start from the source (root) node.  
-2. Visit the node and mark it as visited.  
-3. Recursively explore each unvisited neighbor.  
-4. Backtrack when no unvisited neighbors are left.  
+1. Start from the root (source) node.  
+2. Explore a branch using DFS until the depth limit is reached.  
+3. If the goal is not found within the limit, backtrack.  
+4. Continue exploring other branches within the same depth constraint.
 
-### 🔹 Applications of DFS
-- **Pathfinding** and **maze solving**  
-- **Topological sorting**  
-- **Cycle detection** in graphs  
-- **Solving puzzles** like Sudoku or N-Queens  
-- **Connected components** detection in a graph  
+### 🔹 Applications of DLS
+- Used when the **depth of the solution is known**.  
+- Prevents **infinite recursion** in large trees.  
+- Commonly used in **AI search problems** and **game trees**.  
+- Acts as a foundation for **Iterative Deepening Search (IDS)**.
 
 ### 🔹 Time & Space Complexity
 | Complexity Type | Value |
 |------------------|--------|
-| Time Complexity | O(V + E) — where V = vertices, E = edges |
-| Space Complexity | O(V) (for recursion stack) |
+| Time Complexity | O(b^l) — where b = branching factor, l = depth limit |
+| Space Complexity | O(b × l) |
 
 ### 🔹 Example Input & Output
 
-**Input Graph (Adjacency List):**
-
+**Example Graph (Simplified):**
 A: [B, C]
 B: [D, E]
 C: [F]
 D: []
-E: [F]
+E: [G]
 F: []
+G: []
 
-**DFS Traversal:**  
-A → B → D → E → F → C
+**Depth Limit:** 2  
+**Goal Node:** G  
+
+**Search Process:**  
+- Start at A → B → D (depth 2 reached, backtrack)  
+- B → E (depth 2 reached, backtrack)  
+- C → F (depth 2 reached, backtrack)  
+
+**Result:** G not found (since G is at depth 3)
