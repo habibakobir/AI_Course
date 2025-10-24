@@ -29,19 +29,21 @@ It helps prevent infinite loops in large or infinite search spaces.
 
 **Example Graph (Simplified):**
 A: [B, C]
-B: [D, E]
-C: [F]
+B: [D]
+C: []
 D: []
-E: [G]
-F: []
-G: []
 
+**Start node:** A
 **Depth Limit:** 2  
 **Goal Node:** G  
 
 **Search Process:**  
-- Start at A → B → D (depth 2 reached, backtrack)  
-- B → E (depth 2 reached, backtrack)  
-- C → F (depth 2 reached, backtrack)  
+- Start at A (depth 0)
+- Move to B (depth 1)
+- Move to D (depth 2) → Goal found ✅
+- Backtrack and end search
+- 
+**Result:**
+👉 Goal found! Path: A → B → D 
 
-**Result:** G not found (since G is at depth 3)
+
