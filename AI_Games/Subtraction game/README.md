@@ -1,5 +1,5 @@
 **🧠 Subtraction Game (Player vs AI)**
-
+---
 **🎯 Game Description**
 
 The Subtraction Game is a simple mathematical strategy game built using Python and Pygame.
