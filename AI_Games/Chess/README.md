@@ -61,3 +61,9 @@ Python	Programming language
 Pygame	GUI and board display
 
 python-chess	Handling chess logic and moves
+
+
+**🏆 Summary**
+
+This project demonstrates how Artificial Intelligence can be used to simulate intelligent gameplay in a complex strategy game like Chess.
+Using the Minimax Algorithm with Alpha-Beta Pruning, the AI can efficiently choose strong moves and challenge the human player.
