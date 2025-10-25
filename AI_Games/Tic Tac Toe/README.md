@@ -1,5 +1,6 @@
 # 🎮 Tic Tac Toe (Human vs AI)
 
+---
 ## 🧭 Description
 This is a simple AI-based Tic Tac Toe game developed using Python and Pygame.  
 It allows a human player to play against an AI opponent that uses the **Minimax Algorithm** to make intelligent decisions.
@@ -50,6 +51,7 @@ Python(3.x) -	Programming language
 
 Pygame -	GUI and game engine
 
+---
 
 **🏆 Summary**
 
