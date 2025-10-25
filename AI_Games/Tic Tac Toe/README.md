@@ -49,3 +49,9 @@ Pygame
 Python(3.x) -	Programming language
 
 Pygame -	GUI and game engine
+
+
+**🏆 Summary**
+
+This project demonstrates how Artificial Intelligence can be applied to classical games like Tic Tac Toe using the Minimax Algorithm.
+The AI always makes the best possible move, making it impossible for the human player to win — only a draw is possible if played perfectly.
