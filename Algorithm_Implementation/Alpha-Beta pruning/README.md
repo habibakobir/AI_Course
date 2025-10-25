@@ -34,14 +34,13 @@ It reduces the number of nodes evaluated by the Minimax algorithm without affect
 ---
 
 ### 🔹 Example Game Tree
-              A (MAX)
+        A (MAX)
        /       \
      B (MIN)    C (MIN)
     /           \
    D (MAX)       E (MAX)
-    \             \
-     F (leaf)      F (leaf)
-
+  \             \
+  F (leaf)      F (leaf)
 
 
 Root node:A(MAX)
