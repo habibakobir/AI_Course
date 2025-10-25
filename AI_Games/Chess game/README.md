@@ -16,7 +16,6 @@ Make sure Python 3.8 or above is installed.
 
 You can check your version using:
 
-```bash
 python --version
 
 **🧩 Step 2: Install Required Libraries**
@@ -33,6 +32,8 @@ Navigate to the Chess folder and run the main file:
 
 python main.py
 
+---
+
 **💡 How to Play**
 
 1.The player always uses White pieces (moves first).
@@ -45,6 +46,8 @@ python main.py
 
 5.The game ends when a Checkmate, Draw, or Stalemate occurs.
 
+---
+
 **🧠 Algorithm Used**
 
 **🧩 Minimax Algorithm with Alpha-Beta Pruning**
@@ -56,7 +59,7 @@ python main.py
 3.Alpha-Beta Pruning is applied to reduce the number of nodes evaluated by the
 Minimax algorithm, making the AI faster and more efficient.
 
-
+---
 
 **🧱 Libraries / Frameworks Used**
 
@@ -67,6 +70,8 @@ Python	Programming language
 Pygame	GUI and board display
 
 python-chess	Handling chess logic and moves
+
+---
 
 **🏆 Summary**
 
