@@ -60,9 +60,9 @@ leaf_values = {
     "F": 10  # Example value for leaf F
 }
 
-Optimal value at root 'A': 10
-Decision path: A → B → D → F(10)
-Total prunings: 2
-Pruned nodes: None
-Optimal value for MAX: 10
+Optimal value at root 'A': 10 ,
+Decision path: A → B → D → F(10) ,
+Total prunings: 2 ,
+Pruned nodes: None ,
+Optimal value for MAX: 10 ,
 Maximizer tries to get highest value, Minimizer tries lowest value
