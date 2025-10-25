@@ -19,14 +19,19 @@ python tic_tac_toe.py
 ## 🧩 Required Libraries / Frameworks:
 
 Python (3.x)
+
 Pygame
 
 ## 🎮 How to Play:
 
 1.The player uses X and AI uses O.
+
 2.Click on a box to place your X.
+
 3.The AI will automatically make its move.
+
 4.The game ends when either player wins or the board is full (Draw).
+
 5.A message will display the result (Winner or Draw).
 
 ## 🧠 Algorithm Used:
@@ -34,10 +39,13 @@ Pygame
 **Minimax Algorithm:**
 
 1.This algorithm checks all possible moves.
+
 2.It simulates both player and AI turns.
+
 3.Chooses the move that maximizes AI’s chances to win or draw.
 
 **🧱 Libraries / Frameworks Used**
 **Library	Purpose**
 Python(3.x) -	Programming language
+
 Pygame -	GUI and game engine
