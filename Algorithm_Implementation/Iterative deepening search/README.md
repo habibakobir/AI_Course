@@ -1,4 +1,5 @@
 🧠 **Iterative Deepening Search (IDS) Algorithm**
+
 🔹 **How the Algorithm Works:**
 -Iterative Deepening Search (IDS) combines the advantages of both Depth-First Search (DFS) and Breadth-First Search (BFS).
 It performs a series of Depth-Limited Searches (DLS) with increasing depth limits, starting from 0 up to the required level, until the goal is found.
