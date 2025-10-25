@@ -9,6 +9,8 @@ The player who takes the last stone loses the game!
 
 This version uses the Minimax Algorithm to make the AI play optimally, ensuring a challenging experience for the human player.
 
+---
+
 **🕹️ How to Run**
 
 ✅ Step 1: Install Python
@@ -28,6 +30,8 @@ pip install pygame
 Navigate to your project folder (where main.py is saved):
 python subtraction.py
 
+---
+
 **🧩 Game Rules**
 
 1.The game starts with 25 stones.
@@ -40,6 +44,8 @@ python subtraction.py
 
 5.The AI always plays optimally using the Minimax Algorithm.
 
+---
+
 **🧠 Algorithm Used**
 
 - Minimax Algorithm
@@ -48,6 +54,7 @@ A decision-making algorithm used in two-player turn-based games.
 
 The AI simulates all possible outcomes and chooses the move that maximizes its chance of winning.
 
+---
 
 **⚙️ Software / Libraries Used**
 
