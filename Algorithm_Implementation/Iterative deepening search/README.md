@@ -6,6 +6,7 @@ It performs a series of Depth-Limited Searches (DLS) with increasing depth limit
 It ensures completeness (like BFS) and low memory usage (like DFS).
 
 **Steps:**
+
 1.Start with depth limit = 0.
 2.Perform Depth-Limited Search (DLS).
 3.If the goal is not found, increase the depth limit by 1.
@@ -21,8 +22,7 @@ It ensures completeness (like BFS) and low memory usage (like DFS).
 🔹 **Time & Space Complexity:**
 | Complexity Type | Value |
 |------------------|--------|
-| Time Complexity | O(b^d) — where b = branching factor, d = depth of the goal
-|
+| Time Complexity | O(b^d) — where b = branching factor, d = depth of the goal|
 | Space Complexity | O(b × d) |
 
 🔹 **Example Input & Output:**
