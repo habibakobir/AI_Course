@@ -58,7 +58,7 @@ tree = {
 Leaf node values example: F1 =3 ,F = 5 ,
 Root node: A (MAX) chooses path leading to highest leaf value → F2 = 5 ,
 
-Decision path: A → C → E → F2
+Decision path: A → C → E → F2 ,
 Optimal value for MAX: 5 ,
 Decision path: A → B → D → F2 ,
 MAX tries to maximize the value, MIN tries to minimize
