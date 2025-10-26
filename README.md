@@ -13,14 +13,13 @@ Throughout this course, I have learned to:
 - Understand how theory connects to real-world applications of AI.
 
 ### ⏰ Duration
-September 2025 – November 2025
+July 2025 – November 2025
 
 ### 👨‍🏫 Supervisor Name:
-[Write your teacher's name here]
+Mr.Razorshi Prozzwal Talukder
 Department of Computer Science & Engineering 
 
 ### 👩‍💻 Course Taken By:
-**Habiba Kobir** 
-_AI Course Student_  
-GitHub Repository: [habibakobir/AI_Course](https://github.com/habibakobir/AI_Course)
-
+Mr.Razorshi Prozzwal Talukder
+Department of Computer Science & Engineering 
+ 
