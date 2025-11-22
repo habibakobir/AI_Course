@@ -66,9 +66,5 @@ Type your research question (e.g., "History of the ReAct prompting framework") a
 ---
 
 ## Sample Screenshots  
-1.  
-<img src="Screenshot 2025-11-18 003453.png" width="750" height="950"/>  
-<img src="Screenshot 2025-11-18 003541.png" width="750" height="950"/>  
-2.  
-<img src="Screenshot 2025-11-18 004212.png" width="750" height="950"/>  
-<img src="Screenshot 2025-11-18 004232.png" width="750" height="950"/>  
+ ![screenshot1](https://github.com/user-attachments/assets/ce235d9c-d0aa-4729-9fa0-4f72e6703f3a)
+
