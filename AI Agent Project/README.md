@@ -66,5 +66,13 @@ Type your research question (e.g., "History of the ReAct prompting framework") a
 ---
 
 ## Sample Screenshots  
+1.
  ![screenshot1](https://github.com/user-attachments/assets/ce235d9c-d0aa-4729-9fa0-4f72e6703f3a)
+
+![screenshot](https://github.com/user-attachments/assets/9407b414-6f5d-4d24-8c0b-30d9c89f8376)
+
+2.
+![IMG-20251122-WA0041](https://github.com/user-attachments/assets/1d6c24c2-4af2-4fe0-aa1a-3be4ab9fd7bb)
+
+![IMG-20251122-WA0038](https://github.com/user-attachments/assets/93e19ac3-75ad-4fc5-85b6-1ac7eca0f9fa)
 
